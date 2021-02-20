@@ -1,0 +1,48 @@
+.content-title {
+    text-align: center;
+}
+
+.slide-container {
+    padding: 10px 0;
+}
+
+.slick-slider .slick-arrow {
+    background: #c08d00;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: FontAwesome;
+}
+
+.slick-prev:before {
+    content:"\f104";
+    font-size: 14px;
+}
+
+.slick-next::before {
+    content: "\f105";
+    font-size: 14px;
+}
+
+.product-hover:hover .add-to-cart {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+.new-products {
+    margin-top: 20px;
+}
+
+.new-products .btn {
+    display: block;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #c08d00;
+    border-radius: 40px;
+    background: #c08d00;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px auto 0;
+}

@@ -1,0 +1,45 @@
+#card{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-bottom: 20px;
+ }
+
+ .botchat {
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+ }
+.react-chatbot-kit-chat-container {
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.react-chatbot-kit-chat-bot-message {
+    background-color: #c08d00 !important;
+}
+.react-chatbot-kit-chat-bot-message-arrow {
+    border-right: 8px solid #c08d00 !important;
+}
+.react-chatbot-kit-chat-btn-send {
+    background-color: #c08d00 !important;
+}
+ .closebtn {
+     cursor: pointer;
+     position: absolute;
+     top: 5px;
+     right: 10px;
+     font-size: 16px;
+     font-weight: bold;
+
+ }
+ .icon-message{
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     margin-right: 10px;
+     cursor: pointer;
+     margin-bottom: 20px;
+ }

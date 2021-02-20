@@ -1,0 +1,39 @@
+.cart-dropdown {
+    transition: opacity ease-out 0.4s;
+}
+
+.dropdown:hover .cart-dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+.product-img {
+    padding-bottom: 5px;
+}
+.amount .count {
+    width: 20px;
+    height: 15px;
+    line-height: 0;
+    border: 1px solid #555;
+    outline: none;
+    background: transparent;
+    cursor: pointer
+}
+.menuOnHover{
+    position: relative;
+}
+.menuHover {
+    position: absolute;
+    top: 45px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    z-index: 999;
+    width: 100px;
+    background-color: #ffffff;
+}
+.menuOnHover:hover .menuHover {
+    visibility: visible;
+    opacity: 1;
+
+}
